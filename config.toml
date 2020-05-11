@@ -1,8 +1,9 @@
-baseURL = "https://caldissKjelmann.github.io/workshop_template"
+baseURL = ""
 languageCode = "en-us"
 title = "CALDISS Workshop Template"
 themesDir = "themes"
 theme = "hugo-theme-learn"
+relativeurls = true
 
 [[menu.shortcuts]]
 name = "<i class='fab fa-github'></i> Github repo"
