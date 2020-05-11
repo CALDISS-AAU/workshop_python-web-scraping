@@ -3,3 +3,8 @@ languageCode = "en-us"
 title = "CALDISS Workshop Template"
 themesDir = "themes"
 theme = "hugo-theme-learn"
+
+[[menu.shortcuts]]
+name = "<i class='fab fa-github'></i> Github repo"
+url = "https://github.com/caldissKjelmann/workshop_template"
+
