@@ -1,4 +1,5 @@
-baseURL = "http://example.org/"
+baseURL = "https://caldissKjelmann.github.io/workshop_template/"
 languageCode = "en-us"
 title = "CALDISS Workshop Template"
+themesDir = "themes"
 theme = "hugo-theme-learn"
