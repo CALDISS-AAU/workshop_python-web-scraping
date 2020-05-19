@@ -31,6 +31,8 @@ section_regex = re.compile('\n# {#Afsnit}.*?(?=\n# \{#Afsnit|#Kapitel|#END|\n$)'
 section_title_regex = re.compile('(?<=\n# {#Afsnit}).*?(?=\n)')
 section_text_regex = re.compile('(?<=\n# {#Afsnit}).*$', re.DOTALL)
 
+table_regex = re.compile('<div>.*?</div>', re.DOTALL)
+
 # Define functions
 def get_chapters(doc):
     chapters = re.findall(chapter_regex, doc)
@@ -129,6 +131,7 @@ for chapter in chapters:
     weight = weight + 1
 
 # Export files to folders
+table_files = []
 for chaptkey,chapter in chapters_dict.items():
     
     folder = content_path + chapter['folder']
@@ -144,9 +147,15 @@ for chaptkey,chapter in chapters_dict.items():
         filename = '/' + create_section_filename(section['title'])
         section_out = section['front'] + section['text']
         
+        if re.search(table_regex, section['text']):
+            table_files.append(folder + filename)
+        
         with open(folder + filename, 'w') as outfile:
             outfile.write(section_out)
             outfile.close()
         
     
 
+if len(table_files) > 0:            
+    table_files_print = '\n'.join(table_files)
+    print("The following files contain tables:\n" + table_files_print)
