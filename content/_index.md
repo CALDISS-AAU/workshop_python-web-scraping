@@ -1,5 +1,4 @@
-# I DID IT
+# Introduction to Web Scraping (in Python)
 
 
 
-Or did I?!
