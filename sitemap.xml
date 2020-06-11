@@ -3,16 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>caldiss-aau.github.io/workshop_python-web-scraping/</loc>
+    <loc>/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>caldiss-aau.github.io/workshop_python-web-scraping/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>caldiss-aau.github.io/workshop_python-web-scraping/tags/</loc>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
