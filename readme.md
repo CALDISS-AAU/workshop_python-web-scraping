@@ -1,19 +1,16 @@
-# Workshop: Introduction to Web Scraping and Crawling
+# Introduction to Web Scraping
 
 
 
-- Differences between HTML and rendered
-- Pages in HTML and Java - one is easier, one is difficult (and maybe not possible)
-- No history
-- Focus on scraping; mention crawling
-- Crawling is more complicated than scraping
-- Short Hyphe demonstration
+*Workshop for Digital Literacy 2020, November 19th*
+
+
+
+This workshop is part of [Support Workshops for Digital Literacy and Curriculum F20](https://github.com/edux-dk/support-workshops-f20).
 
 
 
 ## Schedule
-
-
 
 00:00-00:25 How does the internet work? (MJ)
 
