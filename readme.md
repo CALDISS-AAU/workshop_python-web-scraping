@@ -2,7 +2,7 @@
 
 
 
-*Workshop for Digital Curriculum 2021, September 9th 2021 09.00-12.00* 
+*Workshop for Digital Curriculum 2021, September 10th 2021 09.00-12.00* 
 
 
 
